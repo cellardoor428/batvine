@@ -17,3 +17,7 @@ added sensor data batvine - about to try and append SMX and correct date for all
 
 20121108-
 Corrected detector_date_site_2011 with correct dates for round 5 (7/28-8/1). Then re-ran ipython notebook for nightly_sums_2011.
+
+20121120-
+Moved pass_bin_both_years from results folder to data folder (see notes in result folder).
+
