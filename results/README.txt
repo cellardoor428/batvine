@@ -24,3 +24,18 @@ Adjusted date and took (mean, tmin, tmax, and tsunset) for each night of tempera
 
 Made file of nightly distribution of calls by species, Woot! named file hour_pass_distribution. Also created duplicate called nightly_distribution_calls_graph - to create a graph.
 
+20121213- 
+
+Removed dead days from temperature data (note: look at days that had double the number of temperature entries), then updated csv and named it final_temp_data.
+
+Merged the temp data with the 2011 pass_bin_nightly_sum_2011_full.csv (need to figure out how to merge the 2011 & 2012 table- I just want to add the 2012 data below the 2011, right?) named it: nightly_sum_full_2011. 
+
+20121222- 
+
+reran the temperature script after removing the duplicate days. 
+
+Printed out a list of all the sunset temperatures that were greater than 32 degrees celsius to compare against historical temperature data from weatherunderground.com
+
+updated insect data script, created a csv containing the detector_date, site, and closest bug count date, named it detector_date_close_bug.csv, tried to append the count data for the close date to this file (from csv in data folder, called _site_wgkh_2011). First I merged the to on the site, but I couldn't figure out how to append the right count data. For the sake of running preliminary analysis, I made a copy of the un-merged csv bug_data.csv, called it bug_data1.csv, and manually appended the bug count data from the closest date to the detector_date into a new column, and called it bug_count. (also the insect_data kernel froze and I hadn't saved the last 4 hours of attempts- lame).
+
+

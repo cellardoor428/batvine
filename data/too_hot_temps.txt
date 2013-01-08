@@ -1,0 +1,49 @@
+In ipython notebook temperature_data (ln 47):
+
+# Look for temperature outliers
+    if (float(mini_table['temp'][5:6])) > 32:
+        print 'too hot', i, float(mini_table['temp'][5:6])
+
+too hot SM2_20110720 32.2 NCTCR- max = 89, mean = 72
+
+too hot SM1_20110822 34.0 JPHRR- max = 76, mean = 66
+
+too hot SM3_20110823 33.5 RIWRR- max = 95, mean = 73
+too hot SM2_20110823 35.1 COLAR- max = 95, mean = 73
+ 
+too hot SM2_20110824 32.2 COLAR- max= 87, mean = 71
+
+too hot SM2_20110825 32.7 COLAR- max = 86, mean = 71
+ 
+too hot SM3_20110827 36.1 COHOX- max = 84, mean = 67
+too hot SM2_20110827 33.6 COHOR- max = 84, mean = 67
+
+too hot SM2_20110828 33.1 COHOR- max = 85, mean = 68
+too hot SM3_20110828 34.1 COHOX- max = 85, mean = 68
+
+too hot SM2_20110829 33.1 COHOR- max = 88, mean = 69
+too hot SM3_20110829 33.6 COHOX- max = 88, mean = 69
+
+too hot SM5_20120612 32.2 NCTCR- max = 91, mean = 72
+too hot SM2_20120612 33.5 COWAR- max = 91, mean = 72
+
+too hot SM1_20120616 35.5 JPHRR- max = 98, mean = 76*
+too hot SM5_20120616 34.5 FNSUR- max = 98, mean = 76*
+too hot SM3_20120616 34.8 JPHRP- max = 98, mean = 76*
+too hot SM6_20120616 34.1 JPBDR- max = 98, mean = 76*
+too hot SM2_20120616 36.5 GRRUR- max = 98, mean = 76*
+
+too hot SM2_20120710 33.3 GRYOR- max = 87, mean = 71
+too hot SM5_20120710 32.2 GRRUR- max = 87, mean = 71
+
+too hot SM5_20120711 33.3 SMMIP- max = 87, mean = 70
+too hot SM2_20120711 36.1 JPHRR- max = 87, mean = 70
+too hot SM3_20120711 34.6 JPHRP- max = 87, mean = 70
+too hot SM1_20120711 32.5 SMMIR- max = 87, mean = 70
+
+too hot SM3_20120720 34.6 CLAMX- max = 87, mean = 69
+too hot SM5_20120720 34.0 COHOR- max = 87, mean = 69
+too hot SM6_20120720 33.0 COHOP- max = 87, mean = 69
+too hot SM1_20120720 33.3 CLAMR- max = 87, mean = 69
+
+* = 
