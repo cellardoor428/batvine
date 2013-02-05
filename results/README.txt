@@ -38,4 +38,11 @@ Printed out a list of all the sunset temperatures that were greater than 32 degr
 
 updated insect data script, created a csv containing the detector_date, site, and closest bug count date, named it detector_date_close_bug.csv, tried to append the count data for the close date to this file (from csv in data folder, called _site_wgkh_2011). First I merged the to on the site, but I couldn't figure out how to append the right count data. For the sake of running preliminary analysis, I made a copy of the un-merged csv bug_data.csv, called it bug_data1.csv, and manually appended the bug count data from the closest date to the detector_date into a new column, and called it bug_count. (also the insect_data kernel froze and I hadn't saved the last 4 hours of attempts- lame).
 
+20130118-
+
+Over the last couple of weeks, many failed attempts to figure out the bug data. Finally succeeded. Made some preliminary plots- box plots of activity and bug densities, scatter plots of activity, site, also formatted figure with nightly pass distribution.
+
+20130204- 
+Made a copy of the pass_bin_temp.csv (file containing all variables), for Justin to format the model with. Manually removed most of the heterogeneity index columns- left only Hab05km-Hab60km (cut all hab types and Vin05km-60km, because it is just the inverse of Hab).
+Also cut unnamed, lat, long, max_temp, and temp_sunset columns. For pretty formatting sake, also cut site, extra and pair columns and pasted them so they were the first 3 columns. Saved csv and pushed all changes.
 
